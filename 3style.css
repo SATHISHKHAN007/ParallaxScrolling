@@ -1,0 +1,71 @@
+body {
+    background-image: url("isha.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    max-width: 3500px;
+}
+
+#heading {
+    text-align: center;
+    font-family: 'Times New Roman', serif;
+    color: red;
+}
+
+.style1 {
+    text-align: center;
+    color: green;
+    margin-bottom: 300px;
+    font-size: 20px;
+    text-shadow: 2px 2px 5px cyan;
+}
+
+.container {
+    color: rgb(243, 243, 243);
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+
+}
+
+.firstpara {
+    border: 2px solid rgb(98, 98, 175);
+    width: 45%;
+    text-align: justify;
+    padding: 5px;
+    box-shadow: 10px 10px 20px rgb(29, 29, 77);
+}
+
+.secondpara {
+    border: 2px solid rgb(98, 98, 175);
+    width: 45%;
+    text-align: justify;
+    padding: 5px;
+    box-shadow: 10px 10px 20px rgb(29, 29, 77);
+}
+
+.mainstyle2 {
+
+    overflow: auto;
+    text-align: justify;
+    position: relative;
+}
+
+img {
+    float: right;
+    overflow: auto;
+    width: 250px;
+}
+
+.khan {
+    position: absolute;
+    bottom: 100px;
+    width: 70%;
+    margin: 20px;
+    color: whitesmoke;
+}
+
+.style4 {
+    margin-top: 200px;
+}
